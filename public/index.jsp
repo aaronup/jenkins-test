@@ -15,6 +15,6 @@
 <p>Some copy for the visitors</p>
 <strong>Bold Text</strong>
 <!--<a href="/j_spring_security_logout">Logout</a>-->
-update: 3
+update: 4
 </body>
 </html>
