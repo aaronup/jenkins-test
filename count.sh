@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 
-cp target.text target-orig.text
-sed -r 's/(^[0-9]+$)/echo "$((\1+1))"/ge' target-orig.text > target.text
-rm target-orig.text
+cp public/index.jsp public/index-orig.jsp
+sed -r 's/^(update: )([0-9]+)$/echo "\1$((\2+1))"/ge' public/index-orig.jsp > public/index.jsp
+rm public/index-orig.jsp
